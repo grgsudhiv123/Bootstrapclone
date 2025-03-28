@@ -6,9 +6,9 @@ import { FaAngleLeft, FaAngleRight, FaArrowRightLong  } from "react-icons/fa6";
 const CompOne = () => {
   return (
     <div className='w-[90%] md:w-3/5 mx-auto flex flex-col gap-5 md:items-center'>
-         <div className='flex py-5 px-2 w-fit rounded-xl bg-purple-600/10'>
-            <FaAngleLeft size={25} className='text-purple-600'/> 
-            <FaAngleRight size={25} className='text-purple-600'/>
+         <div className='flex py-5 px-2 w-fit rounded-xl bg-purple-400/10'>
+            <FaAngleLeft size={25} className='text-purple-500'/> 
+            <FaAngleRight size={25} className='text-purple-500'/>
         </div>
         <h1 className='text-3xl md:text-5xl font-semibold'>Get started any way you want</h1>
         <p className='md:text-xl md:text-center tracking-wide'>Jump right into building with Bootstrap—use the CDN, install it via package manager, or download the source code.</p>

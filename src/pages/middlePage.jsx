@@ -6,6 +6,9 @@ import ComponentFive from "../components/middlepagecomponents/five"
 import CompSix from "../components/middlepagecomponents/six"
 import ComponentSeven from "../components/middlepagecomponents/seven"
 import CompEight from "../components/middlepagecomponents/eight"
+import CompoNine from "../components/middlepagecomponents/nine"
+import CompTen from "../components/middlepagecomponents/ten"
+import CompoEleven from "../components/middlepagecomponents/eleven"
 
 
 
@@ -13,7 +16,7 @@ import CompEight from "../components/middlepagecomponents/eight"
 const MiddlePage = () => {
   return (
     <div className="w-full h-auto">
-        <div className="max-w-screen-xl mx-auto flex flex-col gap-10 md:gap-14">
+        <div className="max-w-screen-xl mx-auto flex flex-col gap-5">
             <CompOne/>
             <ComponentTwo/>
             <Compthree />
@@ -22,6 +25,9 @@ const MiddlePage = () => {
             <CompSix />
             <ComponentSeven />
             <CompEight />
+            <CompoNine />
+            <CompTen />
+            <CompoEleven />
         </div>
     </div>
   )
