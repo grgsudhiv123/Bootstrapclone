@@ -4,7 +4,11 @@ import { MdMenuBook } from "react-icons/md";
 import { IoClipboardOutline } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa6";
 
+import CopyBoxComponent from "../utils/ui/CopyBoxComponent"
+
+
 const HeroPage = () => {
+  const code = `$ npm i bootstrap@5.3.3`;
   return (
   <div className="relative w-full h-[630px] md:h-[800px] pt-24">
       <div className="max-w-screen-xl mx-auto">
@@ -25,10 +29,7 @@ const HeroPage = () => {
               <p className='text-md md:text-2xl font-normal text-slate-600'>Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
             </div>
             <div className='w-full text-center flex flex-col md:flex-row justify-center gap-4 md:gap-10'>
-              <div className='p-3 md:p-5 bg-slate-300 rounded-lg flex justify-center items-center gap-5 ring-1 ring-slate-400'>
-                <p className=' md:text-xl font-light tracking-wider'>$ npm i bootstrap@5.3.3</p>
-                <IoClipboardOutline size={20} className='hover:text-cyan-800 cursor-pointer duration-200 ease-in-out'/>
-              </div>
+                <CopyBoxComponent code={code} className="md:text-lg font-light tracking-wider" />
               <div className='p-3 md:p-5 bg-[rgb(120,52,252)] rounded-lg flex justify-center items-center gap-2 text-white cursor-pointer hover:bg-[rgb(106,73,172)] duration-200 ease-in-out'>
                 <MdMenuBook size={25}/>
                 <p className='md:text-xl font-semibold'>Read the docs</p>

@@ -57,7 +57,7 @@ const Navbar = () => {
       <div className="absolute w-full bg-[rgb(120,52,252)] top-0 z-20" style={{opacity : 20}}>
         <div className="max-w-screen-xl flex mx-auto justify-between px-2 py-3 md:px-5">
             <div className="flex-1 flex gap-5 justify-center lg:justify-start items-center">
-                <FaBootstrap size={45} className=" text-white hover:-rotate-30 duration-300 ease-in-out cursor-pointer"/>
+                <FaBootstrap size={45} className=" text-white transition-transform hover:scale-120 hover:-rotate-20 duration-300 ease-in-out cursor-pointer"/>
                 <div className="hidden lg:flex w-full gap-5">
                     <p className="text-slate-300 hover:text-white duration-200 ease-in-out font-medium cursor-pointer">Docs</p>
                     <p className="text-slate-300 hover:text-white duration-200 ease-in-out font-medium cursor-pointer">Example</p>
