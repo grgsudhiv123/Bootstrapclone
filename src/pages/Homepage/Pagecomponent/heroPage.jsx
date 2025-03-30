@@ -10,7 +10,7 @@ import CopyBoxComponent from "../../../utils/ui/CopyBoxComponent"
 const HeroPage = () => {
   const code = `$ npm i bootstrap@5.3.3`;
   return (
-  <div className="relative w-full h-[630px] md:h-[800px] pt-24">
+  <div className="relative w-full h-[630px] md:h-[950px] lg:h-[800px] pt-24">
       <div className="max-w-screen-xl mx-auto">
           <div className='w-[90%] md:w-2/3 mx-auto flex flex-col gap-7 md:gap-5'>
             <div className='w-full flex justify-center'>

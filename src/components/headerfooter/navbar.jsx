@@ -76,9 +76,7 @@ const Navbar = () => {
             <Sidebar isOpenSidebar={isOpenSidebar} setIsOpenSidebar={setIsOpenSidebar}/>
             <div className="max-w-screen-xl flex mx-auto justify-between px-2 py-2 md:px-5">
                 <div className="flex-1 flex gap-5 justify-center lg:justify-start items-center">
-                    <Link to='/'>
-                    <FaBootstrap size={45}   className="text-white transition-transform hover:scale-110 hover:-rotate-20 duration-300 ease-in-out cursor-pointer" />
-                    </Link>
+                    <FaBootstrap size={45}  onClick={()=>navigate('/')} className="text-white transition-transform hover:scale-110 hover:-rotate-20 duration-300 ease-in-out cursor-pointer " />
                     <div className="hidden lg:flex w-full gap-5 flex-row items-center">
                         {["Docs", "Example", "Icons", "Themes", "Blog"].map((item,index) => (
                             <p key={index} onClick={()=>handleNavigation(item)} className="text-slate-300 hover:text-white duration-200 ease-in-out font-medium cursor-pointer">
@@ -117,7 +115,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="absolute flex lg:hidden items-center gap-3 left-0 w-full py-2 px-5 justify-end text-white">
+                <div className="absolute flex lg:hidden items-center gap-3 right-0 w-fit py-2 px-5 justify-end text-white">
                     <IoMdSearch size={25} onClick={() => setToggleSearch(!toggleSearch)} />
                     <BsThreeDots size={25} onClick={() => setIsOpenSidebar(!isOpenSidebar)}/>
                 </div>

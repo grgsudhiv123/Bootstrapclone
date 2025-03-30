@@ -79,7 +79,7 @@ const Sidebar = ({isOpenSidebar, setIsOpenSidebar}) => {
       <div
         className={`fixed top-0 right-0 h-full w-[90%] bg-[rgb(120,52,252)] shadow-xl transform ${
           isOpenSidebar ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-400 ease-in-out z-80`}
+        } transition-transform duration-400 ease-in-out z-80 overflow-auto`}
       >
         {/* Sidebar Header */}
         <div className="flex justify-between items-center mt-4 px-4 ">
@@ -114,7 +114,7 @@ const Sidebar = ({isOpenSidebar, setIsOpenSidebar}) => {
         {/* Sidebar Links */}
         <ul className="w-full px-4 flex flex-col text-white">
           <li className="w-fit text-white hover:text-slate-300 duration-200 ease-in-out flex gap-1 items-center" onClick={handleVersion} ref={versionRef}>
-            <p className="text-md">Bootstrap v5.3</p>
+            <p className="text-sm">Bootstrap v5.3</p>
             <IoMdArrowDropdown size={18} className={`${toggleVersion ? "rotate-180 duration-200 ease-in-out" : "duration-200 ease-in-out"}`} />
           </li>
           {toggleVersion && <VersionDropbox />}
@@ -125,7 +125,7 @@ const Sidebar = ({isOpenSidebar, setIsOpenSidebar}) => {
         <ul className="w-full px-4 flex flex-col gap-5  text-white"  >
           <li className="w-fit text-white hover:text-slate-300 duration-200 ease-in-out flex items-center gap-1" onClick={handleTheme} ref={themeRef}>
             <PiMoonStarsFill size={25} className="hover:text-slate-300 duration-300 ease-in-out text-white" /> 
-            <p>Toggle Theme</p>
+            <p className="text-sm">Toggle Theme</p>
             <IoMdArrowDropdown size={15} className={`${toggleTheme ? "rotate-180 duration-200 ease-in-out" : "duration-300 ease-in-out"} text-white`} />
           </li>
           {toggleTheme && <Theme />}

@@ -51,7 +51,7 @@ const Searchcomponent = ({setToggleSearch,toggleSearch}) => {
         <>
         <div className="absolute top-0 left-0 w-screen h-screen bg-slate-900/50 z-50 " onClick={handleOuterClick}>
             <div className="relative w-full h-full flex">
-                <div className="w-full md:w-xl mx-auto h-full md:h-fit md:mt-36 flex flex-col justify-between gap-5 border-2 border-slate-100 bg-slate-100 md:rounded-lg shadow-xl " onClick={handleInnerClick}>
+                <div className="w-full md:w-xl mx-auto h-full md:h-fit md:mt-36 flex flex-col justify-between gap-5 border-2 border-slate-100 bg-white md:rounded-lg shadow-xl " onClick={handleInnerClick}>
                     <div className=" p-3 flex flex-col gap-5">
                             <div className="flex items-center gap-2">
                                 <div className="w-full flex  border-2 border-[rgb(120,52,252)] items-center px-2 rounded-sm">
