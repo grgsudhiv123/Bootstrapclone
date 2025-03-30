@@ -1,6 +1,6 @@
 
 import { BsBoxSeam, BsGlobe } from "react-icons/bs";
-import CopyBoxComponent from "../../utils/ui/CopyBoxComponent"
+import CopyBoxComponent from "../../../../utils/ui/CopyBoxComponent"
 
 
 const ComponentFive = () => {

@@ -4,7 +4,7 @@ import { MdMenuBook } from "react-icons/md";
 import { IoClipboardOutline } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa6";
 
-import CopyBoxComponent from "../utils/ui/CopyBoxComponent"
+import CopyBoxComponent from "../../../utils/ui/CopyBoxComponent"
 
 
 const HeroPage = () => {

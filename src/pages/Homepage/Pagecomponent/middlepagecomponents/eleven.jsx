@@ -1,6 +1,6 @@
 
-import CopyBoxComponent from "../../utils/ui/CopyBoxComponent"
-import Dropdown from "../../utils/ui/DropdownBox"
+import CopyBoxComponent from "../../../../utils/ui/CopyBoxComponent"
+import Dropdown from "../../../../utils/ui/DropdownBox"
 const CompoEleven = () => {
     const code1 = `
 <div class="dropdown">

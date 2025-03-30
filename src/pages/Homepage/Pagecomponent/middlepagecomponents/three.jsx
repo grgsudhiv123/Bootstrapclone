@@ -1,7 +1,7 @@
 import React from 'react'
-import webPack from "../../assets/webpack.svg"
-import parcel from "../../assets/parcel.png"
-import vite from "../../assets/vite.svg"
+import webPack from "../../../../assets/webpack.svg"
+import parcel from "../../../../assets/parcel.png"
+import vite from "../../../../assets/vite.svg"
 
 
 const Compthree = () => {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { TiArrowSortedDown } from "react-icons/ti";
 
 
@@ -6,11 +6,25 @@ import { TiArrowSortedDown } from "react-icons/ti";
 const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const dropboxRef = useRef()
   const toggleDropdown = () => setIsOpen(!isOpen);
 
+  useEffect(()=>{
+    const handleOutsideClick = (e) =>{
+      if(!dropboxRef.current.contains(e.target)){
+        setIsOpen(false)
+      }
+    }
+    document.addEventListener('click', handleOutsideClick)
+    return (()=> {
+      document.removeEventListener('click', handleOutsideClick)
+    })
+  },[])
+
   return (
-    <div className="relative dropdown p-3 md:p-5 border border-slate-300 rounded-md md:rounded-xl">
-      <button
+    <div className="relative dropdown p-3 md:p-5 border border-slate-300 rounded-md md:rounded-xl" >
+      <div className='w-fit' ref = {dropboxRef}>
+        <button
         className="btn flex items-center gap-3 btn-primary dropdown-toggle p-2 bg-blue-600 text-white rounded-lg"
         type="button"
         onClick={toggleDropdown}
@@ -37,6 +51,7 @@ const Dropdown = () => {
           </li>
         </ul>
       )}
+      </div>
     </div>
   );
 };

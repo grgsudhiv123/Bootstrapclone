@@ -1,7 +1,7 @@
 
-import CopyBoxComponent from "../../utils/ui/CopyBoxComponent"
+import CopyBoxComponent from "../../../../utils/ui/CopyBoxComponent"
 import { FaArrowRightLong  } from "react-icons/fa6";
-import BootstrapComponent from "../../utils/ui/ToggleComponent"
+import BootstrapComponent from "../../../../utils/ui/ToggleComponent"
 
 const CompoNine = () => {
     const code1 = `
