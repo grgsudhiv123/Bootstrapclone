@@ -64,9 +64,9 @@ const sidebarData = [
 
 const CompSidebar = () => {
   return (
-    <div className="w-[20%] h-[calc(100vh-4rem)] overflow-auto sticky top-16 hidden md:flex flex-col">
+    <div className="w-[18%] h-[calc(100vh-4rem)] overflow-auto sticky top-16 hidden md:flex flex-col">
       {sidebarData.map((section, index) => (
-        <div key={index} className="w-full px-4 py-2">
+        <div key={index} className="w-full p-2">
           <div className="flex flex-row gap-2 items-center">
             {section.icon}
             <p className="font-semibold text-md text-slate-900">{section.title}</p>

@@ -7,9 +7,9 @@ import HeroComponent from "../DocsPage/pagecomponents/HeroComponent";
 
 const DocsPage = () => {
   return (
-    <section className="w-full h-auto">
+    <section className="w-full h-auto ">
       <Navbar />
-      <section className="relative max-w-screen-xl mx-auto flex flex-row mt-18 mb-5">
+      <section className="relative max-w-screen-xl mx-auto flex flex-row mt-20 mb-5">
         <CompSidebar />
         <HeroComponent />
         <PageProgress />

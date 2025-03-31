@@ -1,74 +1,14 @@
-
+import FirstComp from "./HeroPageComponent/FirstComp"
+import SecondComp from "./HeroPageComponent/secondComp"
+import ThirdComp from "./HeroPageComponent/ThirdComp"
 
 const HeroComponent = () => {
   return (
-<div className=" md:w-[60%] h-fit bg-blue-600 sticky px-5">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum voluptatem eligendi qui cumque tempora corrupti temporibus itaque mollitia officiis minus? Ipsa vel tempore obcaecati atque, ullam vitae fugit ad aspernatur?</p>
-      </div>
+    <div className="w-full md:w-[67%] h-fit sticky px-5">
+      <FirstComp />
+      <SecondComp />
+      <ThirdComp />
+    </div>
   );
 };
 
